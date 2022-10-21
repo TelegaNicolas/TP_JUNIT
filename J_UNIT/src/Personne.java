@@ -4,10 +4,12 @@ public class Personne{
 	private String nom;
 	private String prenom;
 	private String login;
+	private String test;
 	
 	public Personne(String unNom, String unPrenom){
 		this.nom = unNom;
 		this.prenom = unPrenom;
+		this.test = new String();
 		this.login = creerLogin();
 	}
 	
